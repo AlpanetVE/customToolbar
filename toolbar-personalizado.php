@@ -49,6 +49,15 @@ function personalizar_aspecto_toolbar() {
 	echo '<style>
 		#wpadminbar { background: #0DABB3 !important; }
 		#wpadminbar a.ab-item { color: black !important; font-size:15px }
+#wpadminbar a.ab-item:hover { background: white !important; font-size:15px }
+	#wpadminbar a.ab-item:focus { background: white !important; font-size:15px }
+#wpadminbar a.ab-item { background: white !important; font-size:15px }
+
+#wpadminbar .ab-sub-wrapper:hover { background: white !important; font-size:15px }
+	#wpadminbar .ab-sub-wrapper:focus { background: white !important; font-size:15px }
+#wpadminbar .ab-sub-wrapper { background: white !important; font-size:15px }
+
+
 
 		#wp-admin-bar-wp-logo > .ab-item .ab-icon {
 			background-image: url('.get_bloginfo('template_directory').$adminlogo.') !important;
